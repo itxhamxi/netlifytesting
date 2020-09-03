@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: {
         apiURL: process.env.DEPLOY_URL
-          ? "https://howtodrones-gatsby.herokuapp.com"
+          ? "https://ancient-beach-39683.herokuapp.com"
           : "http://localhost:1337",
         contentTypes:[
           `article`,
